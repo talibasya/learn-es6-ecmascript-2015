@@ -19,7 +19,7 @@ var people = [
 	}
 ];
 
-var filtered = people.filter(x => x.pets && x.pets.length);
+var filtered = people.filter(x => x.pets && x.pets.length); // !?
 console.log(filtered); // shows, who has any pets
 
 

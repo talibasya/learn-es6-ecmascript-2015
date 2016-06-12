@@ -85,7 +85,7 @@ function logEmail({email}) {
 
 logEmail(Skyler); // shows Ruiz2
 
-people.forEach( ({firstName}) => console.log(firstName) )// will show first name
+people.forEach( (firstName) => console.log(firstName) )// will show first name
 
 
 

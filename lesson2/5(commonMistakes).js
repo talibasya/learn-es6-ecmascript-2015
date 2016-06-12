@@ -29,7 +29,7 @@ console.log(tally);// {vote1: 2, vote2: 2}
 
 
 // !!!!!!!!!!!!!!!!!!!!!!!!! 
-var tally = data.reduce(reducer); // the second argument default 0
+var tally = data.reduce(reducer);
 console.log(tally);// {vote1} ?
 
 

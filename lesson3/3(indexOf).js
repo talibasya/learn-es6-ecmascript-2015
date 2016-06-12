@@ -1,5 +1,5 @@
 var family = ['Shane', 'Sally', 'Isaac', 'Kittie'];
-console.log(family.indexOf('Kiitie')); // 3 (index)
+console.log(family.indexOf('Kittie')); // 3 (index)
 
 
 
