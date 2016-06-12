@@ -1,4 +1,4 @@
-let furstName = "John";
+let firstName = "John";
 let lastName = "Lindquist";
 let person = {firstName, lastName};
 

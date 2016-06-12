@@ -19,7 +19,7 @@ console.log(equation); // 1 + 2 = 3;
 
 
 //_______________________________________________________
-function tag(string, ...value) {
+function tag(strings, ...values) {
 	console.log(strings); // [ 'It\'s ', 'I\'m sleepy' ]
 	console.log(values); // [ 15 ]
 

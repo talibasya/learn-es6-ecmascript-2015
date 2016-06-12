@@ -43,7 +43,7 @@ console.log(location); // New York
 // only 0 and 4
 var [first,,,,fifth] = ['red', 'yellow', 'green', 'blue', 'orange'];
 console.log(first); // red
-console.log(fifth); // irabge
+console.log(fifth); // orange
 
 
 //___________________________________

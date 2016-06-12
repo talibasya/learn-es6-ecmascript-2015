@@ -67,5 +67,5 @@ myMap.set(myFunc, 'world');
 //myMap.set("string", 2);
 
 for (var [key, value] of myMap.entries()) {
-	console.log(key, " -> ", value); //  foo -> bar; hello -> world
+	console.log(key, " -> ", value); //  error
 }
