@@ -1,0 +1,24 @@
+"use strict";
+
+var App = function App(props) {
+	var myStyle = {
+		backogroundColor: '#100',
+		height: 10
+	};
+
+	return React.createElement(
+		"div",
+		null,
+		React.createElement(
+			"a",
+			{
+				href: "#",
+				notrendered: "x",
+				onClick: update },
+			"this is the text",
+			i > 1 ? 'More than one' : 'one',
+			i > 1 && 'More than one'
+		)
+	);
+};
+/*this is a comment*/
