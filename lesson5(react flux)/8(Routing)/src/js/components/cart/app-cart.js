@@ -1,7 +1,7 @@
 import React from 'react';
-import AppStore from '../stores/app-store';
-import AppCartItem from './app-cart-items';
-import StoreWatchMixin from '../mixins/StoreWatchMixin';
+import AppStore from '../../stores/app-store';
+import AppCartItem from './app-cart-item';
+import StoreWatchMixin from '../../mixins/StoreWatchMixin';
 
 
 const cartItems = () => {
