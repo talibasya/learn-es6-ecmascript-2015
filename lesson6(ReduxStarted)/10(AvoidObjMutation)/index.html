@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  
+<script src="https://wzrd.in/standalone/expect@latest"></script>
+<script src="https://wzrd.in/standalone/deep-freeze@latest"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.3.1/redux.js"></script>
+ <script src="https://fb.me/react-0.14.7.js"></script>
+  <script src="https://fb.me/react-dom-0.14.7.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    
+</head>
+<body>
+
+<script type='text/babel'>
+
+const toggleTodo = (todo) => {
+  return Object.assign({},todo, {
+    completed: !todo.completed
+  });
+
+  /*return {
+    ...todo,
+    completed: !todo.completed
+  };*/
+};
+
+const testToggleTod = () => {
+  const todoBefore = {
+    id: 0,
+    text: 'Learn Redux',
+    completed: false
+  };
+
+  const todoAfter = {
+    id: 0,
+    text: 'Learn Redux',
+    completed: true
+  };
+
+  deepFreeze(todoBefore);
+
+  expect(
+    toggleTodo(todoBefore)
+    ).toEqual(todoAfter);
+}
+
+testToggleTod();
+console.log('Tests passed!')
+</script>
+
+
+</body>
+</html>
